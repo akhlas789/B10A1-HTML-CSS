@@ -184,8 +184,7 @@ section .container {
   height: 675px;
   margin: 50px auto;
 }
-.inspiration-container
-.inspiration-header {
+.inspiration-container .inspiration-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,4 +223,73 @@ section .container {
   align-items: center;
   margin: 20px auto;
   box-sizing: border-box;
+}
+
+/* target container new section */
+.target-section {
+  width: 80%;
+  margin: 150px auto;
+}
+.target-header h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target-header p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.target-item {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+  margin: 50px 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-item h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.target-item p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.target-item h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.item-container{
+    display: flex;
 }
