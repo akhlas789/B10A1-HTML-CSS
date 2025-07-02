@@ -86,7 +86,7 @@ section .container {
   border-radius: 16px;
   margin: 30px auto;
   background: rgba(13, 19, 33, 0.02);
-  padding: 40px 97px 80px 97px;
+  padding: 30px;
 }
 .development-container {
 }
@@ -177,4 +177,51 @@ section .container {
   border-radius: 5px;
   border: 2px solid rgb(13, 19, 33);
   opacity: 0.7;
+}
+
+.inspiration-section {
+  width: 80%;
+  height: 675px;
+  margin: 50px auto;
+}
+.inspiration-container
+.inspiration-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inspiration-header h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration-header p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+.inspiration-video {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  background-color: azure;
+}
+.inspiration-video iframe {
+  width: 1140px;
+  height: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  box-sizing: border-box;
 }
